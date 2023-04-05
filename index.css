@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Cursed Timer ULiL";
-    src: url(CursedTimerUlil-Aznm.ttf)
+    src: url(CursedTimerUlil-Aznm.ttf);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 h3 {
-    color: #EEEEEE;
+    color: #eeeeee;
     text-align: center;
     font-family: 'Verdana';
     font-style: normal;
@@ -31,16 +31,16 @@ h3 {
     border-radius: 5px;
 }
 
-#home-score, #guest-score {
+#home-score,
+#guest-score {
     margin: -20px;
     font-family: 'Cursed Timer ULiL';
     font-style: normal;
-    font-weight: 400px;
-    color: #F94F6D;
+    font-weight: 400;
+    color: #f94f6d;
     font-size: 90px;
     line-height: 127px;
     text-align: center;
-    
 }
 
 .guest-scorebox {
@@ -52,20 +52,36 @@ h3 {
     border-radius: 5px;
 }
 
-.add-point-home, .add-two-point-home, .add-three-point-home, .add-point-guest, .add-two-point-guest, .add-three-point-guest {
-    border: 1px solid #9AABD8;
+.add-point-home,
+.add-two-point-home,
+.add-three-point-home,
+.add-point-guest,
+.add-two-point-guest,
+.add-three-point-guest {
+    border: 1px solid #9aabD8;
     border-radius: 10px;
     width: 40px;
     height: 40px;
     background-color: #1b244a;
-    color: #9AABD8;
+    color: #9aabD8;
     font-family: 'Cursed Timer ULiL';
     text-align: center;
-}  
+}
 
-.buttons-home, .buttons-guest {
+.buttons-home,
+.buttons-guest {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
+}
+
+.reset-button {
+    margin-top: 10px;
+    border: 1px solid #9aabD8;
+    border-radius: 10px;
+    background-color: #1b244a;
+    color: #9aabD8;
+    width: 60px;
+    height: 50px;
 }
